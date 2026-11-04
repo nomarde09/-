@@ -10,6 +10,19 @@
   <h1>Мой watchlist</h1>
   <p>Фильмы и сериалы: хочу посмотреть, смотрю, просмотрено.</p>
 
+  <form id="add-form">
+    <label for="title-input">Название</label>
+    <input type="text" id="title-input" name="title" placeholder="Например, Дюна" required>
+
+    <label for="type-select">Тип</label>
+    <select id="type-select" name="type">
+      <option value="movie">Фильм</option>
+      <option value="series">Сериал</option>
+    </select>
+
+    <button type="submit">Добавить</button>
+  </form>
+
   <script src="app.js"></script>
 </body>
 </html>
